@@ -38,17 +38,17 @@ CRUD (Create, Read, Update, Delete) de entidade endereço em padrão REST, utili
 
 ## Endpoints
 
-- **GET:** /{id}
+- **GET:** /{id} \
 Buscar endereço por ID.
-- **GET:** /listAll
+- **GET:** /listAll \
 Buscar todos os endereços não excluídos.
-- **POST:** /
+- **POST:** / \
 Criar novo endereço
-- **PUD:** /
+- **PUD:** / \
 Atualizar endereço
-- **DELETE:** /
+- **DELETE:** / \
 Realiza exclusão lógica de endereço
-- **GET:** /api-docs
+- **GET:** /api-docs \
 JSON de documentação
-- **GET:** /swagger-ui/index.html?configUrl=/endereco/api-docs/swagger-config#/
+- **GET:** /swagger-ui/index.html?configUrl=/endereco/api-docs/swagger-config#/ \
 Documentação em Swagger
